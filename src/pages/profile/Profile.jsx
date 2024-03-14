@@ -9,7 +9,7 @@ const Profile = () => {
              <meta name="description" content="Profil" />
         </Helmet>
 
-        Profil Sayfası
+        <h1>Profil sayfası</h1>
     </>
   )
 }
