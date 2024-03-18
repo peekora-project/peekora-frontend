@@ -1,12 +1,11 @@
 import React from 'react'
 
-const NotFound = () => {
+const LoginForm = () => {
   return (
     <>
-    
-
+       
     </>
   )
 }
 
-export default NotFound
+export default LoginForm
