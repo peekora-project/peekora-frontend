@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Row, Col } from 'react-bootstrap';
 import LoginForm from '../../components/layout/login/LoginForm';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 const LoginPage = () => {
   return (
@@ -12,7 +12,7 @@ const LoginPage = () => {
       </Helmet>
       <Row>
         <Col sm={12} md={6}>
-
+          <LoginForm/>
         </Col>
         <Col sm={12} md={6}>
 
