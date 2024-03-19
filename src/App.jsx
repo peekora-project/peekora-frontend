@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const HomePage = lazy(() => import('./pages/homepage/HomePage'));
 const Profile = lazy(() => import('./pages/profile/Profile'));
 const LoginPage = lazy(() => import('./pages/login/LoginPage'));
+const RegistrationPage = lazy(() => import('./pages/registration/RegistrationPage'))
 const Notfound = lazy(() => import('./pages/notfound/NotFound'));
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/" element={<HomePage />}/>
           <Route path="/profile" element={<Profile />}/>
           <Route path="/login" element={<LoginPage/>}/>
+          <Route path="/registration" element={<RegistrationPage/>}/>
           <Route path="*" element={<Notfound/>}/>
         </Routes>
       </Suspense>
