@@ -4,6 +4,7 @@ import {
     MDBInput
   }
   from 'mdb-react-ui-kit';
+  import '../LoginFormStyle.css'
 
 const LoginFormInput = () => {
   return (
@@ -13,7 +14,7 @@ const LoginFormInput = () => {
         <MDBInput wrapperClass='mb-4' label='Email address' id='formControlLg' type='email' size="lg"/>
         <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/>
 
-        <MDBBtn className="mb-4 login-button" style={{backgroundColor:"#2992fb"}} size='md'>Login</MDBBtn>
+        <MDBBtn className="mb-4 login-button border-0 shadow-5" size='md'>Login</MDBBtn>
     </>
   )
 }
