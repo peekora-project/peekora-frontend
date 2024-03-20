@@ -28,7 +28,7 @@ const RegistrationForm = () => {
             
             <RegistrationSocialMedia/>
 
-            <MDBBtn className='mb-4 register-button border-0 shadow-5' size='lg'>Register</MDBBtn>
+            <MDBBtn className='mb-4 register-button border-0 shadow-5' size='md'>Kayıt Ol</MDBBtn>
 
           </MDBCol>
 
