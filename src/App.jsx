@@ -15,7 +15,7 @@
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
-            <Route exact path="/" element={<HomePage />}/>
+            <Route path="/" element={<HomePage />}/>
             <Route path="/profile" element={<Profile />}/>
             <Route path="/login" element={<LoginPage/>}/>
             <Route path="/registration" element={<RegistrationPage/>}/>
