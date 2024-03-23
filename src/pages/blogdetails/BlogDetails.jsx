@@ -13,8 +13,8 @@ const BlogDetails = () => {
         </MDBCol>
       </MDBRow>
       <MDBRow>
-        <MDBCol md={9} className="bg-success-subtle"></MDBCol>
-        <MDBCol md={3}>
+        <MDBCol md={9} className="bg-success-subtle p-0 m-0"></MDBCol>
+        <MDBCol md={3} className="p-0 m-0">
           <ProfileCard />
         </MDBCol>
       </MDBRow>
