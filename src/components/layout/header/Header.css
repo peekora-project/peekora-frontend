@@ -1,0 +1,18 @@
+.didact-gothic-regular {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Header.css içinde */
+.no-hover:hover {
+  background-color: transparent !important; /* Arka plan rengini değiştirmeyi engeller */
+  color: #000000 !important; /* Yazı renginde değişiklik olmamasını sağlar */
+  box-shadow: none !important; /* Gölge efektini kaldırır */
+}
+/* Header.css */
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+
