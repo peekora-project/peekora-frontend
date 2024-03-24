@@ -1,5 +1,5 @@
 .fixed-footer {
-    position: fixed;
+  position: relative;
     bottom: 0;
     width: 100%;
     z-index: 100; /* İhtiyaç duyulursa diğer içeriklerin üzerinde görünmesini sağlar */

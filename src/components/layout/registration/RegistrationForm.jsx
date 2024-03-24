@@ -14,6 +14,7 @@ from 'mdb-react-ui-kit';
 import './RegistrationFormStyle.css'
 import RegistrationSocialMedia from './components/RegistrationSocialMedia';
 import RegistrationInput from './components/RegistrationInput';
+import { Link } from 'react-router-dom';
 
 
 const RegistrationForm = () => {
@@ -37,6 +38,7 @@ const RegistrationForm = () => {
           </MDBCol>
 
         </MDBRow>
+        <Link to={"/"} className='underline'>Anasayfaya Dön</Link>
       </MDBCardBody>
     </MDBCard>
     </>

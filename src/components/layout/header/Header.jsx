@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div>
       {/* Üst Navbar */}
-      <MDBNavbar expand="lg" light bgColor="white" className="py-2 shadow-0 border-bottom border-1">
+      <MDBNavbar expand="lg" light className="py-2 shadow-0 border-bottom border-1">
         <div className="container">
           {/* Sosyal Medya İkonları */}
           <div className="d-flex align-items-center">

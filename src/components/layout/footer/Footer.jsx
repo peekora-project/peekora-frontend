@@ -11,7 +11,7 @@ export default function Footer() {
   return (
   <div className='fixed-footer'>
    <MDBContainer className='p-4 pb-0'> 
-    <MDBFooter className='bg-dark text-center text-white'>
+    <MDBFooter className='bg-secondary text-center text-white'>
       
         <section className='mb-4 pt-4'>
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
