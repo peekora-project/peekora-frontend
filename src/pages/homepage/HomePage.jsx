@@ -14,7 +14,6 @@ const HomePage = () => {
         <MDBContainer>
           <MDBRow>
             <MDBCol md="12">
-              <Header/>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
