@@ -14,65 +14,63 @@ import {
 
 const ProfileCard = () => {
   return (
-    <div className="vh-100" style={{ backgroundColor: "#eee" }}>
-      <MDBContainer className="container py-5 h-100">
-        <MDBRow className="justify-content-center align-items-center h-100">
-          <MDBCol md="12" xl="4">
-            <MDBCard style={{ borderRadius: "15px" }}>
+      <MDBContainer className="py-3" >
+        <MDBRow className="justify-content-center">
+        <MDBCol>
+            <MDBCard style={{ borderRadius: "15px", height: "280px" }}>
               <MDBCardBody className="text-center">
-                <div className="mt-3 mb-4">
+                <div className="mt-2 mb-2">
                   <MDBCardImage
                     src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava2-bg.webp"
                     className="rounded-circle"
                     fluid
-                    style={{ width: "100px" }}
+                    style={{ width: "40px" }}
                   />
                 </div>
-                <MDBTypography tag="h4">Julie L. Arsenault</MDBTypography>
-                <MDBCardText className="text-muted mb-4">
+                <MDBTypography tag="h5">Julie L. Arsenault</MDBTypography>
+                <MDBCardText className="text-muted mb-2">
                   @Programmer <span className="mx-2">|</span>{" "}
-                  <a href="#!">mdbootstrap.com</a>
+                  <a href="#!">user@mail.com</a>
                 </MDBCardText>
-                <div className="mb-4 pb-2">
+                <div className="mb-2 pb-1">
                   <MDBBtn outline floating>
-                    <MDBIcon fab icon="facebook" size="lg" />
+                    <MDBIcon fab icon="facebook" size="md" />
                   </MDBBtn>
-                  <MDBBtn outline floating className="mx-1">
-                    <MDBIcon fab icon="twitter" size="lg" />
+                  <MDBBtn outline floating >
+                    <MDBIcon fab icon="github" size="md" />
                   </MDBBtn>
                   <MDBBtn outline floating>
-                    <MDBIcon fab icon="skype" size="lg" />
+                    <MDBIcon fab icon="linkedin" size="md" />
                   </MDBBtn>
                 </div>
-                <MDBBtn rounded size="lg">
+                <MDBBtn rounded size="sm">
                   Message now
                 </MDBBtn>
-                <div className="d-flex justify-content-between text-center mt-5 mb-2">
+                <div className="d-flex justify-content-between text-center mt-2 mb-1">
                   <div>
                     <MDBCardText className="mb-1 h5">8471</MDBCardText>
                     <MDBCardText className="small text-muted mb-0">
-                      Wallets Balance
+                     Bloglar
                     </MDBCardText>
                   </div>
-                  <div className="px-3">
+                  <div >
                     <MDBCardText className="mb-1 h5">8512</MDBCardText>
                     <MDBCardText className="small text-muted mb-0">
-                      Followers
+                      Takipçiler
                     </MDBCardText>
                   </div>
                   <div>
                     <MDBCardText className="mb-1 h5">4751</MDBCardText>
                     <MDBCardText className="small text-muted mb-0">
-                      Total Transactions
+                    Görüntüleme
                     </MDBCardText>
                   </div>
                 </div>
               </MDBCardBody>
             </MDBCard>
-          </MDBCol>
+            </MDBCol>
         </MDBRow>
       </MDBContainer>
-    </div>
   );
 };
 

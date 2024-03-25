@@ -15,7 +15,9 @@ const BlogDetails = () => {
       <MDBRow>
         <MDBCol md={9} className="bg-success-subtle p-0 m-0"></MDBCol>
         <MDBCol md={3} className="p-0 m-0">
+        <div style={{ backgroundColor: "#eee" }}>
           <ProfileCard />
+          </div>
         </MDBCol>
       </MDBRow>
     </MDBContainer>
